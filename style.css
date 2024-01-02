@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-color: #f3cb91;
+}
+
+.container{
+    background-color: antiquewhite;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    min-height: 55vh;
+    width: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+form{
+    margin: 2rem 0 1rem 0;
+}
+
+form select,button,input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+}
+
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i{
+    /* cursor: pointer; */
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 8rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    background-color: #d4d7f3;
+}
+
+.select-container select{
+    cursor: pointer;
+    font-size: 1rem;  
+}
+
+.select-container select option {
+    color: black;
+    background-color: #d9cfcf;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.msg {
+  text-align: center;
+  color: #090b0a;
+  margin-top: 2.3rem ;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+}
+
+#btn {
+    background-color: #6a9cd5;
+    height: 2.5rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: .1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn:hover {
+    /* background-color: #202120; */
+    box-shadow: 0px 15px 20px rgba(158, 223, 197, 0.4);
+    color: #fff;
+    transform: translateY(-1.3px);
+}
+
+p {
+    color: rgb(55, 54, 54);
+    font-size: 1.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    
+}
+
+h2{
+    color: #494948c0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.dropdown select {
+    background-color: rgb(230, 230, 230);
+    height: 1.5rem;
+}
+
+i {
+    color: #168B48;
+}
